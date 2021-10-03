@@ -13,8 +13,6 @@ export const Paragraph = styled.div`
 
         a{
             margin-left: 30rem;
-            //cursor: pointer;
-
             font-size: 15px;
             text-decoration: none;
             color: var(--blue);
@@ -29,14 +27,32 @@ export const Container = styled.div`
 export const Content = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
     margin-top: 2rem;
     margin-left: 12rem;
     gap: 2rem;
+    
+    font-family: 'Playfair Display', serif;
+    background-attachment: fixed;
 
     .thumbBook{
         border-radius: 5px;
         background-blend-mode: pass;
         background-color: var(--blue-900);
+        cursor: pointer;
+    }
+    .thumbBook-two{
+        background-color: var( --purple);
+        background-blend-mode: pass;
+
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .thumbBook-three{
+        background-color: var(--blue-900);
+        background-blend-mode: pass;
+
+        border-radius: 5px;
         cursor: pointer;
     }
     .oval{
@@ -67,7 +83,6 @@ export const Content = styled.div`
     p{
         font-family: 'Roboto', sans-serif;
         font-size: 15px;
-        //margin-top: 2px;
         color: var(--yellow-light);
     }
     span{
@@ -78,8 +93,9 @@ export const Content = styled.div`
         
     }
     .book{
-        margin-top: -7rem;
-        margin-left: 13rem;
-        width: 6rem;
+        margin-top: -10rem;
+        margin-left: 12rem;
+        border-radius: 5px;
+        width: 5rem;
     }
 `;

@@ -1,4 +1,5 @@
 import { BooksHome } from './components/BooksHome';
+import { CurrentlyReading } from './components/CurrentlyReading';
 import { Search } from './components/Search';
 import { GlobalStyle } from './styles/global'
 
@@ -8,6 +9,7 @@ function App() {
       <Search />
       <BooksHome />
       <GlobalStyle />
+      <CurrentlyReading />
     </>
   );
 }
