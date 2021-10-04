@@ -39,7 +39,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     body{
         font-family: 'Roboto', sans-serif;
-        background: var(--white);
+        background: #F4F4F4;
         -webkit-font-smoothing: antialiased;
     }
 `;
