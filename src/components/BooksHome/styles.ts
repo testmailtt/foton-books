@@ -82,14 +82,14 @@ export const Content = styled.div`
     }
     p{
         font-family: 'Roboto', sans-serif;
-        font-size: 15px;
+        font-size: 10px;
         color: var(--yellow-light);
     }
     span{
         font-family: 'Roboto', sans-serif;
         margin-left: 5px;
         color: var(--yellow-light);
-        font-size: 15px;
+        font-size: 10px;
         
     }
     .book{

@@ -42,10 +42,11 @@ export const Content = styled.div`
         .title-book{
         color: var(--black-p);
         font-weight: 500;
-        margin-top: -7.5rem;
+        margin-top: -7.2rem;
         margin-left: 30%;
         margin-right: 20%;
         font-size: 25px;
+        font-family: 'Playfair Display', serif;
     }
     h3{
         font-family: 'Roboto', sans-serif;
@@ -58,6 +59,7 @@ export const Content = styled.div`
         font-family: 'Roboto', sans-serif;
         color: var(--black-p);
         margin-left: 30%;
+        font-size: 10px;
 
         .span-original{
             font-family: 'Roboto', sans-serif;

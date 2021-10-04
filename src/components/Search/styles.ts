@@ -10,6 +10,7 @@ export const Content = styled.div`
     
     background: #fff;
     padding: 15px 35px;
+    
 
     border-radius: 10px;
     
@@ -17,6 +18,7 @@ export const Content = styled.div`
         border: none;
         width: 40rem;
         margin-left: 15px;
+       
         
         font-size: 17px;
         font-weight: 500;
